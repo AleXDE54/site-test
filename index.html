@@ -60,48 +60,103 @@ footer {
 }
 </style>
 <body>
-    <header>
-        <h1>Название компании (будет изменено)</h1>
-        <nav>
-            <ul>
-                <li><a href="#about">О компании</a></li>
-                <li><a href="#services">Услуги</a></li>
-                <li><a href="#partners">Партнеры</a></li>
-                <li><a href="#contact">Контакты</a></li>
-            </ul>
-        </nav>
-    </header>
-    
-    <section id="about">
-        <h2>О компании</h2>
-        <p>Наша юридическая компания специализируется на правовом сопровождении бизнеса с акцентом на экологическое законодательство.</p>
-        <button class="btn">Узнать больше</button>
-    </section>
-    
-    <section id="services">
-        <h2>Наши услуги</h2>
-        <h3>Правовое сопровождение</h3>
+  <header>
+    <div class="container">
+      <h1>Название компании (будет изменено)</h1>
+      <nav>
         <ul>
-            <li>Юридические консультации по гражданским и уголовным делам</li>
-            <li>Юридическое сопровождение бизнеса</li>
-            <li>Арбитражные споры, споры между юридическими лицами</li>
+          <li><a href="#about">О компании</a></li>
+          <li><a href="#services">Услуги</a></li>
+          <li><a href="#partners">Партнеры</a></li>
+          <li><a href="#contact">Контакты</a></li>
         </ul>
-        <button class="btn">Подробнее</button>
-    </section>
-    
-    <section id="partners">
-        <h2>Наши партнеры</h2>
-        <p>Мы сотрудничаем с МОСОБЛВООП, экспертными организациями и сообществами в сфере экологии.</p>
-    </section>
-    
-    <section id="contact">
-        <h2>Контакты</h2>
-        <p>Телефон: +7 (XXX) XXX-XX-XX</p>
-        <p>Email: info@example.com</p>
-    </section>
-    
-    <footer>
-        <p>&copy; 2025 Юридическая компания. Все права защищены.</p>
-    </footer>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Пример hero-секции, можно дополнить -->
+  <section id="hero">
+    <div class="container">
+      <h2>Экологическое право и правовое сопровождение бизнеса</h2>
+      <p>Профессиональные юридические услуги для защиты окружающей среды и вашего бизнеса.</p>
+      <a href="#contact" class="btn">Свяжитесь с нами</a>
+    </div>
+  </section>
+
+  <section id="about" class="container">
+    <h2>О компании</h2>
+    <p>Наша юридическая компания специализируется на правовом сопровождении бизнеса с акцентом на экологическое законодательство.</p>
+  </section>
+
+  <section id="services" class="container">
+    <h2>Наши услуги</h2>
+
+    <!-- Блок "Правовое сопровождение" -->
+    <div class="service-block">
+      <h3>Правовое сопровождение</h3>
+      <ul>
+        <li><a href="consultations.html">Юридические консультации по гражданским и уголовным делам</a></li>
+        <li><a href="business-support.html">Юридическое сопровождение бизнеса</a></li>
+        <li><a href="arbitration.html">Арбитражные споры, споры между юридическими лицами</a></li>
+      </ul>
+    </div>
+
+    <!-- Блок "Комплексные решения для природопользователей" -->
+    <div class="service-block">
+      <h3>Комплексные решения для природопользователей</h3>
+      <ul>
+        <li><a href="environmental-fines.html">Оспаривание экологических штрафов и правонарушений</a></li>
+        <li><a href="state-actions.html">Обжалование действий (бездействий) госорганов</a></li>
+        <li><a href="env-documents.html">Составление и подача всех необходимых документов по экологическим вопросам</a></li>
+        <li><a href="environmental-expertise.html">Помощь в проведении экспертизы экологических документов</a></li>
+      </ul>
+    </div>
+
+    <!-- Блок "Юридические услуги по вопросам экологического законодательства РФ" -->
+    <div class="service-block">
+      <h3>Юридические услуги по вопросам экологического законодательства РФ</h3>
+      <ul>
+        <li><a href="legal-expertise.html">Применение действующего природоохранного законодательства</a></li>
+        <li><a href="document-expertise.html">Правовая экспертиза предоставленных документов</a></li>
+        <li><a href="legal-conclusions.html">Подготовка письменных правовых заключений, договоров, справок, запросов</a></li>
+        <li><a href="env-audit.html">Экологический аудит</a></li>
+        <li><a href="env-review.html">Вопросы проведения экологической экспертизы</a></li>
+        <li><a href="federal-representation.html">Представление интересов клиента в федеральных органах</a></li>
+        <li><a href="legal-protection.html">Защита интересов при проведении проверки соблюдения природоохранного законодательства</a></li>
+      </ul>
+    </div>
+
+    <!-- Блок "Земельно-правовые отношения" -->
+    <div class="service-block">
+      <h3>Земельно-правовые отношения</h3>
+      <ul>
+        <li><a href="land-lease.html">Оформление аренды земли</a></li>
+        <li><a href="change-wri.html">Изменение ВРИ земельного участка</a></li>
+        <li><a href="land-category.html">Перевод земельного участка из одной категории в другую</a></li>
+        <li><a href="pzze-changes.html">Внесение изменений в ПЗЗ</a></li>
+        <li><a href="land-disputes.html">Представление интересов по земельным спорам в суде</a></li>
+        <li><a href="land-right.html">Признание права на земельный участок</a></li>
+        <li><a href="organs-challenge.html">Оспаривание решений органов и должностных лиц</a></li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="partners" class="container">
+    <h2>Наши партнеры</h2>
+    <p>Мы сотрудничаем с МОСОБЛВООП, экспертными организациями и сообществами в сфере экологии.</p>
+  </section>
+
+  <section id="contact" class="container">
+    <h2>Контакты</h2>
+    <p>Телефон: +7 (XXX) XXX-XX-XX</p>
+    <p>Email: info@example.com</p>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 Юридическая компания. Все права защищены.</p>
+    </div>
+  </footer>
 </body>
 </html>
+
