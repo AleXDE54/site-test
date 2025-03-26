@@ -1,51 +1,134 @@
-body {
-    font-family: Arial, sans-serif;
+/* ===== ОБЩИЕ СТИЛИ ===== */
+* {
     margin: 0;
     padding: 0;
-    background-color: #f5f5f5;
+    box-sizing: border-box;
 }
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* ===== ШАПКА ===== */
 header {
     background-color: #2E7D32;
     color: white;
-    padding: 15px;
+    padding: 20px;
     text-align: center;
 }
+
 nav ul {
-    list-style-type: none;
-    padding: 0;
+    list-style: none;
+    text-align: center;
+    padding: 10px 0;
 }
+
 nav ul li {
     display: inline;
     margin: 0 15px;
 }
+
 nav ul li a {
     color: white;
     text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
 }
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* ===== ОСНОВНЫЕ СЕКЦИИ ===== */
 section {
+    max-width: 900px;
+    margin: 30px auto;
     padding: 20px;
-    margin: 20px;
     background: white;
-    border-radius: 5px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
+
+h2 {
+    color: #2E7D32;
+    margin-bottom: 15px;
+}
+
+ul {
+    list-style: none;
+}
+
+ul li {
+    padding: 8px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+ul li:last-child {
+    border-bottom: none;
+}
+
+/* ===== КНОПКИ ===== */
 .btn {
     display: inline-block;
-    padding: 10px 20px;
-    background-color: #2E7D32;
+    padding: 12px 20px;
+    margin-top: 15px;
+    font-size: 16px;
+    font-weight: bold;
     color: white;
-    text-decoration: none;
+    background-color: #FFC107;
     border: none;
     border-radius: 5px;
-    font-size: 16px;
+    text-decoration: none;
+    text-align: center;
+    transition: 0.3s;
     cursor: pointer;
-    transition: background-color 0.3s;
 }
+
 .btn:hover {
-    background-color: #1B5E20;
+    background-color: #FFA000;
 }
+
+/* ===== КОНТАКТЫ ===== */
+.contact p {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.contact a {
+    color: #2E7D32;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.contact a:hover {
+    text-decoration: underline;
+}
+
+/* ===== СТРАНИЦА 404 ===== */
+.not-found {
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.not-found h1 {
+    font-size: 80px;
+    color: #2E7D32;
+    margin-bottom: 20px;
+}
+
+.not-found p {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+/* ===== ПОДВАЛ ===== */
 footer {
     background-color: #2E7D32;
     color: white;
     text-align: center;
-    padding: 10px;
+    padding: 15px;
+    margin-top: 30px;
 }
